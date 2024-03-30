@@ -9,7 +9,7 @@ class MyApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle('Signal and Slot')
-        self.setGeometry(30, 30, 1000, 800)
+        self.setGeometry(30, 30, 500, 400)
         btn=QPushButton('종료',self)
         btn.setGeometry(600,600,30,40)
         lcd = QLCDNumber(self)
